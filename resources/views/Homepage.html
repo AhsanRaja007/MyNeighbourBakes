@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <script src="/resources/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/bootstrap-4.5.3-dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/resources/css/SiteCSS.css" media="screen" type="text/css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous" ></script>
+    <script src="/resources/js/app.js"></script>
+      </head>
+    
+    
+  <!--Navbar-->
+    <body class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #231f20;">
+          <div>
+           <a class="navbar-brand" href="/resources/views/Homepage.html"><img src="/resources/Imgs/GetAttachmentThumbnail.png" width="60" height="60" loading="Lazy"/> My Neighbour Bakes</a>
+          </div> 
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="/resources/views/Cakes.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Cakes
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/resources/views/Cakes.html">Cakes</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+         
+              
+                     
+             </ul>
+             <div class="form-inline my-2 my-lg-0">
+               <ul class="navbar-nav mr-auto">
+                 
+                   <li class="nav-item ">
+
+                       <a class="nav-link" href="/resources/views/Homepage.html#aboutus">About US<span class="sr-only"></span></a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="/resources/views/Homepage.html#writetous">Contact US</a>
+                     </li>
+                     <li class="nav-item">
+                      <button  type="button" class="btn btn-dangerr nav-link" data-toggle="modal" data-target="#subscribeModal"  href="#">Subscribe</button>
+                    </li>
+                    
+               </ul>
+             </form>
+           </div>
+         </nav>  
+         <!--Navbar - End-->
+
+         <!-- Subscribe Modal-->
+         <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header border-bottom-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+               
+                <div class="form-title text-center">
+                  <h4>Stay up to date!</h4>
+                  <p>Join and get latest news about our vegan treats!</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <form class="form-inline subscribe-form">
+                    <div class="subscribe-form">
+                      <form action="#">
+                          <input type="text" placeholder="Email Address">
+                          <button><i class="fab fa-telegram-plane"></i></button>
+                      </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+         <!-- Subscribe Modal End-->
+
+
+         
+         <!-- Slider -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img class="d-block w-100" src="/resources/Imgs/MNB Bg.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img class="d-block w-100" src="/resources/Imgs/Go-Vegan-Shutterstock.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img class="d-block w-100" src="/resources/Imgs/3C.jpeg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+        <!-- Slider- End -->
+     
+     
+      <!-- How Its Work -->
+     <section>
+        <div class="container">    
+          <div class="text-center">
+          <h1 >How It Work's</h1>
+          </div>
+          <br/>
+            <div class="row mbr-justify-content-center">       
+                    <div class="col-lg-6 mbr-col-md-10">
+                        <div class="wrap">
+                            <div class="ico-wrap">
+                                <span class="mbr-iconfont fa-volume-up fa"></span>
+                            </div>
+                            <div class="text-wrap vcenter">
+                                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">PICK <span>A GIFT</span></h2>
+                                <p class="mbr-fonts-style text1 mbr-text display-6">Heaps of amazing cakes, cupcakes and cookies to choose from.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mbr-col-md-10">
+                        <div class="wrap">
+                            <div class="ico-wrap">
+                                <span class="mbr-iconfont fa-calendar fa"></span>
+                            </div>
+                            <div class="text-wrap vcenter">
+                                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">JAZZ 
+
+                                    <span>IT UP</span>
+                                </h2>
+                                <p class="mbr-fonts-style text1 mbr-text display-6">Add some customize toppers, flowers or candles with best prices. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mbr-col-md-10">
+                        <div class="wrap">
+                            <div class="ico-wrap">
+                                <span class="mbr-iconfont fa-globe fa"></span>
+                            </div>
+                            <div class="text-wrap vcenter">
+                                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">SELECT
+                                    <span>A PICK UP DATE</span>
+                                </h2>
+                                <p class="mbr-fonts-style text1 mbr-text display-6">Place an order and wait atleast 3 days for the pickup to get best service.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mbr-col-md-10">
+                        <div class="wrap">
+                            <div class="ico-wrap">
+                                <span class="mbr-iconfont fa-trophy fa"></span>
+                            </div>
+                            <div class="text-wrap vcenter">
+                                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Achieve <span>Your Targets</span></h2>
+                                <p class="mbr-fonts-style text1 mbr-text display-6">Finalise payment</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>       
+           </div>       
+        </section>
+         <!-- Slider-End -->
+ <!-- Gallery -->
+         <section>
+        <div class="text-center">
+          <h1 >Gallery</h1>
+          </div>
+         <div class="asa">
+        <div class="containerr">
+          <div class="panel " style="background-image: url('/resources/Imgs/3C.jpeg')">
+            <h3>Explore Nature</h3>
+          </div>
+            <div class="panel" style="background-image: url('/resources/Imgs/cake\ 1.jpeg')">
+            <h3>Delicious Organics</h3>
+          </div>
+            <div class="panel active" style="background-image: url('/resources/Imgs/cake\ 2.jpeg')">
+            <h3>Observe Wildlife</h3>
+          </div>
+            <div class="panel" style="background-image: url('/resources/Imgs/cakes.jpg')">
+            <h3>Enjoy Sandy Beaches</h3>
+          </div>
+            <div class="panel" style="background-image: url('/resources/Imgs/Go-Vegan-Shutterstock.jpg')">
+            <h3>Scenic Views</h3>
+          </div>
+        </div>
+      </div> 
+    </section>
+      <!--Gallery-End -->
+       <!-- About Us -->
+      <section  id="aboutus" >
+        <br/>
+        <div class="container" style="border-radius: 0.5cm; background-color: white; ">
+        <div class="row">
+        <div class=" col-md-6">
+        <br/>
+        <div class="text-center">
+          <h1 >About Us</h1>
+          </div>
+        <p>‘My Neighbour Bakes’, a home-based bakery business which is primarily community focused. It is currently running it due to a personal passion for baking, but wants to expand to a real business.<br/> 
+            The cakes are made from vegan ingredients due to the client’s preferences and to fill a gap in the market. Non-vegan ingredients can be used if specifically requested but are not preferred.<br/> 
+             Business stands out due to the cake’s unique designs compared to other bakeries.</p>
+             <p class="social-text">Connect with us on our social networks</p>
+             <div class="social-media">           
+               <a href="#" class="social-icon">
+                 <i class="fab fa-facebook-f"></i>
+               </a>
+               <a href="#" class="social-icon">
+                 <i class="fab fa-twitter"></i>
+               </a>
+               <a href="#" class="social-icon">
+                 <i class="fab fa-google"></i>
+               </a>
+               <a href="#" class="social-icon">
+                 <i class="fab fa-linkedin-in"></i>
+               </a>
+             </div>
+             <br/>          
+          </div>
+         <img src="/resources/Imgs/Child Cake.jpg" style="height: 450px; width: 570px; border-radius: 0.5cm;" />
+         </div>     
+         </div>
+      </section>
+  <!-- About Us End -->
+    <!-- Write to Us -->
+      <section id="writetous">
+      <div class="container" style="border-radius: 0.5cm; background-color: white;margin-bottom: 20px;">
+        <br/>
+        <div class="text-center">
+          <h1 >Write to Us</h1>
+          </div>
+        <br />
+        <div class="row">
+            <div class="col-md-6">
+               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" style="width:100%; height:350px;" frameborder="0" ></iframe>
+            </div>
+            <br />
+            <div class="col-md-6">
+                <form class="my-form">
+                    <div class="form-group">
+                       
+                        <input type="email" class="form-control" id="form-name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                    
+                        <input type="email" class="form-control" id="form-email" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                      
+                        <input type="text" class="form-control" id="form-subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                       
+                        <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn btn-dangerr" type="submit">Send</button>                
+                </form>
+            </div>
+        </div>
+        <br/>
+    </div>
+  </section>
+    <!-- Write to Us - End -->
+
+    <!-- Footer -->
+      <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, NSW 54321, Sydney</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="/resources/views/Homepage.html"><img src="/resources/Imgs/GetAttachmentThumbnail.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2021, All Right Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer-End -->
+  </body>
+</html>
+<script>
+// Gallery //
+  const panels = document.querySelectorAll('.panel');
+
+panels.forEach((panel) => {
+  panel.addEventListener('click', () => {
+    removeActiveClasses();
+    panel.classList.add('active');
+  })
+})
+
+function removeActiveClasses() {
+  panels.forEach(panel => {
+    panel.classList.remove('active');
+  })
+}
+//Subscribe//
+$(document).ready(function() {  
+  $('#subscribeModal').modal('show');
+});
+
+
+
+</script>
